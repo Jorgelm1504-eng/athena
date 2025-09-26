@@ -1,5 +1,5 @@
 camera,local ,ip ,link 
-cam01,localteste,10.0.1.150,
+cam01,localteste,10.0.1.200,
 cam02,localteste,10.0.1.151,
 cam03,localteste,10.0.1.152,
 cam04,localteste,10.0.1.153,
@@ -35,3 +35,4 @@ cam33,localteste,10.0.1.182,temp
 cam34,localteste,10.0.1.183,temp
 
 cam35,localteste,10.0.1.184,temp
+
