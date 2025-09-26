@@ -1,15 +1,15 @@
 camera,local ,ip ,link 
-cam01,localteste,10.0.1.150,https://10.0.1.150:8080
-cam02,localteste,10.0.1.151,temp
-cam03,localteste,10.0.1.152,temp
-cam04,localteste,10.0.1.153,temp
-cam05,localteste,10.0.1.154,temp
-cam06,localteste,10.0.1.155,temp
-cam07,localteste,10.0.1.156,temp
-cam08,localteste,10.0.1.157,temp
-cam09,localteste,10.0.1.158,temp
-cam10,localteste,10.0.1.159,temp
-cam11,localteste,10.0.1.160,temp
+cam01,localteste,10.0.1.150,
+cam02,localteste,10.0.1.151,
+cam03,localteste,10.0.1.152,
+cam04,localteste,10.0.1.153,
+cam05,localteste,10.0.1.154,
+cam06,localteste,10.0.1.155,
+cam07,localteste,10.0.1.156,
+cam08,localteste,10.0.1.157,
+cam09,localteste,10.0.1.158,
+cam10,localteste,10.0.1.159,
+cam11,localteste,10.0.1.160,
 cam12,localteste,10.0.1.161,temp
 cam13,localteste,10.0.1.162,temp
 cam14,localteste,10.0.1.163,temp
@@ -33,4 +33,5 @@ cam31,localteste,10.0.1.180,temp
 cam32,localteste,10.0.1.181,temp
 cam33,localteste,10.0.1.182,temp
 cam34,localteste,10.0.1.183,temp
+
 cam35,localteste,10.0.1.184,temp
