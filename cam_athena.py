@@ -49,29 +49,36 @@ def processar_dataframe(df):
     
     return df_clean
 
+col1, col2, col3= st.columns([3, 10, 2])
+col4, col5, col6 = st.columns([4, 10, 1])
+col7, col7, col9 = st.columns([3, 10, 3])
+
 def tela_login():
-    """Tela de login/senha"""
-    st.title("🔐 Acesso as Câmeras")
-    st.markdown("<h5 style='text-align: left; color: gray;'>Colégio Athena - Bauru/SP</h5>", unsafe_allow_html=True)
-    st.markdown("<h6 style='text-align: right; color: gray; font-style: italic;'>by Metrics - IA e Automações</h6>", unsafe_allow_html=True)
-    
-    st.markdown("---")
-    
-    # Campo de senha
-    senha_digitada = st.text_input(
+    with col2:   
+        #"""Tela de login/senha""" 
+        st.image ("athenalogo.png")
+
+    with col5:
+        st.subheader("&nbsp;" * 4 + "🔐 Acesso as Câmeras")
+        
+    with col7:
+        # Campo de senha
+        senha_digitada = st.text_input(
         "Digite a senha:",
         type="password",
         placeholder="Insira sua senha aqui"
     )
     
-    # Botão de login
-    if st.button("Entrar", type="primary"):
-        if senha_digitada == SENHA_CORRETA:
-            st.session_state.autenticado = True
-            st.success("✅ Senha correta! Redirecionando...")
-            st.rerun()
-        else:
-            st.error("❌ Senha incorreta. Tente novamente.")
+        # Botão de login
+        if st.button("Entrar", type="primary"):
+            if senha_digitada == SENHA_CORRETA:
+                st.session_state.autenticado = True
+                st.success("✅ Senha correta! Redirecionando...")
+                st.rerun()
+            else:
+                st.error("❌ Senha incorreta. Tente novamente.")
+
+        st.markdown("<h6 style='text-align: right; color: gray; font-style: italic;'>by Metrics - IA e Automações</h6>", unsafe_allow_html=True)
 
 def tela_principal():
     """Tela principal após login"""
@@ -92,14 +99,14 @@ def tela_principal():
         st.success(f"✅ Dados carregados com sucesso! Total de câmeras: {len(df)}")
         
         # Mostrar informações básicas
-        st.write("### 📊 Resumo das câmeras:")
-        col1, col2, col3 = st.columns(3)
-        with col1:
-            st.metric("Total de câmeras", len(df))
-        with col2:
-            st.metric("Total de colunas", len(df.columns))
-        with col3:
-            st.metric("Campos", ", ".join(df.columns[:2]) + ("..." if len(df.columns) > 2 else ""))
+        #st.write("### 📊 Resumo das câmeras:")
+        #col1, col2, col3 = st.columns(3)
+       # with col1:
+        #    st.metric("Total de câmeras", len(df))
+       # with col2:
+        #    st.metric("Total de colunas", len(df.columns))
+       # with col3:
+           # st.metric("Campos", ", ".join(df.columns[:2]) + ("..." if len(df.columns) > 2 else ""))
         
         st.markdown("---")
         
@@ -120,8 +127,7 @@ def tela_principal():
             df_display = df_processed.head(num_linhas)
         
         # Informar sobre os links
-        if 'link' in df_display.columns and 'ip' in df_display.columns:
-            st.info("💡 Clique nos ips da coluna 'link' para acessar a camera no navegador")
+       # if 'link' in df_display.columns and 'ip' in df_display.columns:
         
         # Mostrar APENAS uma tabela Streamlit
         st.dataframe(
