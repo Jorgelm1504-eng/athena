@@ -1,39 +1,40 @@
 camera,local ,ip ,link 
-cam01,localteste,10.0.1.200,
-cam02,localteste,10.0.1.201,
-cam03,localteste,10.0.1.202,
-cam04,localteste,10.0.1.153,
-cam05,localteste,10.0.1.154,
-cam06,localteste,10.0.1.155,
-cam07,localteste,10.0.1.156,
-cam08,localteste,10.0.1.157,
-cam09,localteste,10.0.1.158,
-cam10,localteste,10.0.1.159,
-cam11,localteste,10.0.1.160,
-cam12,localteste,10.0.1.161,temp
-cam13,localteste,10.0.1.162,temp
-cam14,localteste,10.0.1.163,temp
-cam15,localteste,10.0.1.164,temp
-cam16,localteste,10.0.1.165,temp
-cam17,localteste,10.0.1.166,temp
-cam18,localteste,10.0.1.167,temp
-cam19,localteste,10.0.1.168,temp
-cam20,localteste,10.0.1.169,temp
-cam21,localteste,10.0.1.170,temp
-cam22,localteste,10.0.1.171,temp
-cam23,localteste,10.0.1.172,temp
-cam24,localteste,10.0.1.173,temp
-cam25,localteste,10.0.1.174,temp
-cam26,localteste,10.0.1.175,temp
-cam27,localteste,10.0.1.176,temp
-cam28,localteste,10.0.1.177,temp
-cam29,localteste,10.0.1.178,temp
-cam30,localteste,10.0.1.179,temp
-cam31,localteste,10.0.1.180,temp
-cam32,localteste,10.0.1.181,temp
-cam33,localteste,10.0.1.182,temp
-cam34,localteste,10.0.1.183,temp
+Cam01,Corredor-F1-Térreo,10.0.1.190,
+Cam02,Entrada-Alunos,10.0.1.191,
+Cam03,Entrada-Corredor-Térreo,10.0.1.192,
+Cam04,Auditório,10.0.1.193,
+Cam05,Portao-Entrada-Alunos,10.0.1.154,
+Cam06,Secretaria - Externa,10.0.1.156,
+Cam07,Banheiros - Pátio,10.0.1.161,
+Cam08,Quadra01,10.0.1.162,
+Cam09,Quadra02,10.0.1.163,
+Cam10,Patio,10.0.1.164,
+Cam11,Corredor-F1-Térreo (2),10.0.1.166,
+Cam12,Escada - 1 andar,10.0.1.167,
+Cam13,Recepção,10.0.1.170,
+Cam14,Cozinha,10.0.1.172,
+Cam15,Material de Limpeza,10.0.1.173,
+Cam16,Corredor-Ens.Médio,10.0.1.174,
+Cam17,Corredor-Ens.Médio 5ano,10.0.1.177,
+Cam18,Corredor-Ens.Medio Coord,10.0.1.179,
+Cam19,Rampa,10.0.1.186,
+Cam20,Corredor-Rampa,10.0.1.185,
+******,SALAS,************,
+Cam21,Sala06 (1 andar),10.0.1.152,
+Cam22,Sala04 (1 andar),10.0.1.153,
+Cam23,Sala05 (1 andar),10.0.1.155,
+Cam24,Sala07 (1 andar),10.0.1.157,
+Cam25,Sala19 (Térreo),10.0.1.160,
+Cam26,Sala13 (Térreo),10.0.1.165,
+Cam27,Sala02 (1 andar),10.0.1.168,
+Cam28,Sala01 (1 andar),10.0.1.169,
+Cam29,Sala20 (Térreo),10.0.1.175,
+Cam30,Sala09(1 andar),10.0.1.181,
+Cam31 ,Sala11 (1 andar),10.0.1.182,
+Cam32,Sala12 (1 andar),10.0.1.183,
+Cam33,Sala03 (1 andar),10.0.1.184,
+Cam34,Sala10(1 andar),10.0.1.195,
+Cam35 ,Sala14 (1 andar),10.0.1.180,
 
-cam35,localteste,10.0.1.184,temp
 
 
